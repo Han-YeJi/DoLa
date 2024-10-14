@@ -16,7 +16,8 @@
     
 - 모델 해석 관점
     
-    ![Alt text](image.png)
+    ![image](https://github.com/user-attachments/assets/d0b70fca-bba4-46ed-a6c5-e828656a8203)
+
     
     이전 연구에서 LM의 하위 레이어는 lower-level information(은,는,이,가,한,…)을, 상위 레이어는 semantic information(6.25전쟁, 발생, 연도,…)을 인코딩하는 것으로 나타남. 
     
@@ -24,7 +25,8 @@
     
 
 # DoLa
-![Alt text](image-1.png)
+
+![image-1](https://github.com/user-attachments/assets/ac039efa-fdff-4b50-839c-d45deca16740)
 
 위 그림에서 LM은 마지막 layer에서 높은 확률을 가지는 Seattle을 output으로 뱉게 됨. 
 
@@ -32,7 +34,8 @@
 
 → 서로 다른 레이어 간의 확률 분포를 대조하여 이를 교정하면 환각을 줄일 수 있지 않을까?
 
-![Alt text](image-2.png)
+![image-2](https://github.com/user-attachments/assets/46d21d5a-feb2-4909-9ca8-7457a2e0eb15)
+
 
 위 그림은 마지막 레이어와 이전 레이어들의 JSD(Jenson-Shannon divergence)를 계산한 것임. JSD가 작을 수록 마지막 레이어의 분포와 차이가 적다는 의미를 지님. 
 
