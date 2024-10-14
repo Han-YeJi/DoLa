@@ -117,3 +117,6 @@
         return scores_normalized, baseline_scores_normalized
     
     ```
+
+    DoLa 적용 시, transformers-dola-main을 transformers 대신에 설치하여 사용하면 됨.
+
